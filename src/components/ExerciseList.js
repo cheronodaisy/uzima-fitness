@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setExercises, setLoading, setError } from './exerciseSlice';
 import { fetchExercises } from './api'; 
+
 const ExerciseList = () => {
   const exercises = useSelector(state => state.exercise.exercises);
   const loading = useSelector(state => state.exercise.loading);
