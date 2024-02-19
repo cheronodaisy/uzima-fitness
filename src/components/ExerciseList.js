@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setExercises, setLoading, setError } from './exerciseSlice';
-import { fetchExercises } from './api'; 
+import { fetchExercises } from '../api';
+import { setExercises, setLoading, setError } from '../reducers/exerciseSlice';
 
 const ExerciseList = () => {
   const exercises = useSelector(state => state.exercise.exercises);
@@ -12,11 +12,11 @@ const ExerciseList = () => {
   useEffect(() => {
     dispatch(setLoading(true));
     fetchExercises()
-      .then(response => {
-        dispatch(setExercises(response.data));
+      .then(data => {
+        dispatch(setExercises(data));
       })
-      .catch(error => {
-        dispatch(setError(error.message));
+      .catch(err => {
+        dispatch(setError(err.message));
       })
       .finally(() => {
         dispatch(setLoading(false));
@@ -33,10 +33,10 @@ const ExerciseList = () => {
 
   return (
     <div>
-      <h2>Exercise List</h2>
+      <h2 className="text-2xl font-bold m-4">Exercise List</h2>
       <ul>
         {exercises.map(exercise => (
-          <li key={exercise.id}>{exercise.name}</li>
+          <li key={exercise.id} className="m-2">{exercise.name}</li>
         ))}
       </ul>
     </div>

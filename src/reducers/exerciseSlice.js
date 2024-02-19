@@ -21,4 +21,5 @@ const exerciseSlice = createSlice({
 });
 
 export const { setExercises, setLoading, setError } = exerciseSlice.actions;
+
 export default exerciseSlice.reducer;
