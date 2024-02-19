@@ -1,11 +1,16 @@
-import './App.css';
+import React from 'react';
+import ExerciseList from './components/ExerciseList';
+import WorkoutForm from './components/WorkoutForm';
+import UserProfile from './components/UserProfile';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>uzima fitness</h1>
+    <div>
+      <ExerciseList />
+      <WorkoutForm />
+      <UserProfile />
     </div>
   );
-}
+};
 
 export default App;
