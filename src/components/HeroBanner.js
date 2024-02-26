@@ -11,7 +11,7 @@ const HeroBanner = () => (
     <p className="text-lg lg:text-2xl font-serif mb-8">
       Explore a wide range of exercises for you!
    </p>
-    <a href="/exercise-details" className="inline-block bg-yellow-600 text-white py-4 px-8 rounded-lg text-lg lg:text-xl font-semibold hover:bg-yellow-700 transition duration-300">Explore Exercises</a>
+    <a href="#SearchExercises" className="inline-block bg-yellow-600 text-white py-4 px-8 rounded-lg text-lg lg:text-xl font-semibold hover:bg-yellow-700 transition duration-300">Explore Exercises</a>
     <h3 className="font-semibold text-yellow-600 opacity-10 lg:block hidden text-9xl absolute top-0 right-0 mr-32 mt-12">Exercise</h3>
     <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img mt-8 lg:mt-16" />
   </div>
