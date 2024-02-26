@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+/*import React, { useEffect } from 'react';
 import ExerciseCard from './ExerciseCard';
 import { exerciseOptions, fetchData } from '../api/fetchData';
 
@@ -15,6 +15,7 @@ const Exercises = ({exercise, bodyPart }) => {
       }
 
     };
+    
 
     fetchExercisesData();
   }, [bodyPart]);
@@ -30,3 +31,4 @@ const Exercises = ({exercise, bodyPart }) => {
 };
 
 export default Exercises;
+*/
