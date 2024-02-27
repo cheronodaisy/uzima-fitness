@@ -3,8 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import ExerciseDetail from './pages/ExerciseDetail';
 import './index.css'
+import Exercises from './pages/Exercises';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <div className="mt-8">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/exercise/:id" element={<ExerciseDetail />} />
+          <Route path="/Exercises/:id" element={<Exercises />} />
         </Routes>
       </div>
       <Footer />
