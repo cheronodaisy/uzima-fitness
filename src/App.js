@@ -3,8 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Exercises from  './pages/Exercises';
 import './index.css'
-import Exercises from './pages/Exercises';
+
 
 const App = () => {
   return (
@@ -22,3 +23,15 @@ const App = () => {
 };
 
 export default App;
+/*
+import { Route, Routes } from 'react-router-dom';
+
+import Home from './pages/Home';
+
+<div className="mt-8">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Exercises/:id" element={<Exercises />} />
+        </Routes>
+      </div>
+      */
