@@ -39,7 +39,7 @@ const SearchExercises = () => {
 
   return (
     <div className="p-4">
-        <h2 className="text-yellow-800 font-semibold text-2xl lg:text-6xl pt-16 mb-6">Search for Exercises Below</h2>
+        <h2 className="text-yellow-600 text-center text-3xl font-bold lg:text-3xl pt-16 mb-6">Search for Exercises Below</h2>
     <div className="mb-4">
         <input
           type="text"

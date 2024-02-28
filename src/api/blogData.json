@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "The Benefits of High-Intensity Interval Training (HIIT)",
+      "content": "High-Intensity Interval Training (HIIT) is a popular form of exercise that involves short bursts of intense activity followed by brief periods of rest or low-intensity exercise. This type of workout has been shown to offer numerous benefits, including improved cardiovascular health, increased calorie burn, and enhanced metabolism. In addition, HIIT workouts are often shorter in duration compared to traditional cardio exercises, making them a convenient option for busy individuals.",
+      "author": "John Doe",
+      "date": "February 10, 2023",
+      "image": "./assets/hiit.jpeg",
+      "tags": ["HIIT", "Cardio", "Fitness"]
+    },
+    {
+      "id": 2,
+      "title": "5 Essential Strength Training Exercises for Beginners",
+      "content": "Strength training is an important component of any fitness routine, especially for beginners. Incorporating strength training exercises into your workout regimen can help improve muscle tone, increase bone density, and boost metabolism. To get started with strength training, consider adding these five essential exercises to your routine: squats, push-ups, lunges, deadlifts, and planks. These exercises target multiple muscle groups and can be modified to suit your fitness level.",
+      "author": "Jane Smith",
+      "date": "March 5, 2023",
+      "image": "https://example.com/strength-training.jpg",
+      "tags": ["Strength Training", "Fitness", "Beginners"]
+    }
+  ]
+  

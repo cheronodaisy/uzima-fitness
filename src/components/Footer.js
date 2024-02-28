@@ -9,7 +9,7 @@ const Footer = () => (
       <img src={Logo} alt="logo" className="w-40 h-auto" />
     </div>
     <p className="text-center text-lg lg:text-xl mt-8 pb-10">Uzima Fitness by DC</p>
-    <div className="flex items-center mb-8">
+    <div className="flex items-center px-8 mb-8">
           <a href="https://github.com/cheronodaisy" target="_blank" rel="noopener noreferrer" className="mr-4">
             <FaGithub className="text-yellow text-2xl hover:text-gray-400 transition duration-300" />
           </a>

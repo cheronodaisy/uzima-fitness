@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../assets/images/logo.jpeg';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -8,11 +9,10 @@ const Navigation = () => {
         <img src={Logo} alt="logo" className="w-40 h-auto" />
         <div className="text-white font-bold text-xl">Uzima Fitness</div>
       </div>
-      <div>
-        <ul className="flex space-x-4 text-white font-bold text-xl">
-          <li><a href="/">Home</a></li>
-        </ul>
-      </div>
+      <div className="flex items-center font-bold text-xl">
+        <Link to="/" className="text-white mr-4 hover:text-gray-300">Home</Link>
+        <Link to="/blog" className="text-white hover:text-gray-300">Blog</Link>
+    </div>
     </nav>
   );
 };
