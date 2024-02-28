@@ -1,5 +1,5 @@
 import React from 'react';
-import PlaceholderIcon from '../assets/images/placeholder.jpg';
+import PlaceholderIcon from '../assets/images/equipment.png';
 
 const ExerciseCard = ({ exercise }) => {
   const { name, category, equipment, images } = exercise;
