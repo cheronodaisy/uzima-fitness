@@ -9,9 +9,8 @@ const Navigation = () => {
         <div className="text-white font-bold text-xl">Uzima Fitness</div>
       </div>
       <div>
-        <ul className="flex space-x-4 text-white">
+        <ul className="flex space-x-4 text-white font-bold text-xl">
           <li><a href="/">Home</a></li>
-          <li><a href="/Exercises">Exercises</a></li>
         </ul>
       </div>
     </nav>

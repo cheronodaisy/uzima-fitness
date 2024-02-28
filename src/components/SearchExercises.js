@@ -39,18 +39,18 @@ const SearchExercises = () => {
 
   return (
     <div className="p-4">
-        <h2 className="font-bold text-yellow-600 text-2xl lg:text-5xl mb-4 text-center">What Are You Looking For?</h2>
+        <h2 className="text-yellow-800 font-semibold text-2xl lg:text-6xl pt-16 mb-6">Search for Exercises Below</h2>
     <div className="mb-4">
         <input
           type="text"
           value={search}
           onChange={handleSearch}
           placeholder="Search Exercises"
-          className="border border-gray-300 rounded-md p-2 w-full"
+          className="border border-yellow-600 rounded-md p-2 w-full"
         />
       </div>
       
-      <div className="flex overflow-x-auto space-x-4">
+      <div className="flex overflow-x-auto space-x-4 shadow-2xl hover:shadow-lg">
         {filteredExercises.map(exercise => (
           <div key={exercise.id}>
             <ExerciseCard exercise={exercise} />
