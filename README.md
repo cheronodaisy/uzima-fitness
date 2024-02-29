@@ -6,9 +6,10 @@ They can search for workouts using the exercise name, body category such as arms
 It is simple, appealing and easy to use.
 
 # Screenshots
+![uzima-fitness vercel app_ (2)](https://github.com/cheronodaisy/uzima-fitness/assets/85867696/77cc4dd9-0fbc-4888-9130-491ccf97c903)
+
 ![uzima-fitness vercel app_ (1)](https://github.com/cheronodaisy/uzima-fitness/assets/85867696/1fe4ccf0-c541-4476-a284-ce05272039c2)
 
-![uzima-fitness vercel app_ (2)](https://github.com/cheronodaisy/uzima-fitness/assets/85867696/77cc4dd9-0fbc-4888-9130-491ccf97c903)
 
 # Getting Started with Create React App
 
